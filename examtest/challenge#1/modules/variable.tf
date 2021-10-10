@@ -36,3 +36,9 @@ variable "access_cidr" {
   type = "string"
 }
 
+variable "db_pass" {
+  type = "string"
+  sensitive = true
+  default = null
+}
+
