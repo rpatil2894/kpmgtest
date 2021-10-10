@@ -1,0 +1,14 @@
+name                        = "web_instance"
+ec2_key                    = "ec2-keypair"
+subnet_id                   = "subnet-021f3630fb365ea80"
+access_cidr                 = ["172.6.0.0/16"]
+zone_name                   = "noc.com"
+ec2_instnce_count =   "2"
+instance_type = "t2.micro"
+ec2_subnet_id = "subnet-021f3630fb365ea80"
+monitoring = "9100,9256"
+instance_type = "t2.micro"
+rds_count = "2"
+rds_instance_type = "db.r4.large"
+db_pass = "db@321"
+
